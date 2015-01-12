@@ -8,6 +8,7 @@
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 #include <vector>
+#include "HUFFMAN.h"
 
 #ifndef _JPEG_H
 #define _JPEG_H
