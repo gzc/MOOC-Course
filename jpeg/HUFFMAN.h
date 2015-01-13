@@ -9,37 +9,56 @@
 #include <algorithm>
 #include <fstream>
 #include <map>
+#include <bitset>
+#include <cassert>
 
 using namespace std;
 
 #ifndef _HUFFMAN_H
 #define _HUFFMAN_H
 
+struct Htree {
+    Htree *left;
+    Htree *right;
+    int weight;
+    char ch;
+    Htree() {left = right = NULL; weight = 0;ch = 0;}
+    Htree(Htree *l, Htree *r, int v, char c) {left = l; right = r; weight = v; ch = c;}   
+};
+
+
+// is the node a leaf node?
+static inline bool isLeaf(Htree *node) {
+    assert ( (node->left == NULL && node->right == NULL) || (node->left != NULL && node->right != NULL) );
+    return (node->left == NULL && node->right == NULL);
+}
+
+class myComparision  
+{  
+public:  
+    bool operator () (const Htree* t1, const Htree* t2) {  
+        return t1->weight> t2->weight;  
+    }
+};  
+
 class HUFFMAN {
     typedef map<char, vector<bool> > huffman_dict;
 
-    struct Htree {
-        Htree *left;
-        Htree *right;
-        int weight;
-        Htree() {left = right = NULL; weight = 0;}
-        Htree(Htree *l, Htree *r, int v) {left = l; right = r; weight = v;}
-    
-        bool operator < (const Htree* tree) const {  
-            return weight > tree->weight;    
-        }
-    };
-
-
     Htree *huffman_Tree;
     huffman_dict dict;
+    ofstream fout;
 
-    void buildTree(map<char, double> probabilities);
+    void buildTree(string &data, string filename);
+    void buildDict(Htree *node, vector<bool> &code);
+    void destroy(Htree *node);
+    void writeTrie(Htree *node);
 
 public:
     
-    void encode(string filename);
-    void decode(string filename);
+    HUFFMAN();
+    ~HUFFMAN();
+    void encode(string &data, string filename);
+    void decode();
 };
 
 #endif
