@@ -1,0 +1,38 @@
+
+Checking Gradients (without regularization) ... 
+    1.608518    1.608518
+    2.027031    2.027031
+    0.393103    0.393103
+    3.434645    3.434645
+   15.285172   15.285172
+   -9.329496   -9.329496
+  -10.230392  -10.230392
+  -22.114942  -22.114942
+    2.195343    2.195343
+   -3.636891   -3.636891
+   -1.107891   -1.107891
+   -8.027209   -8.027209
+  -13.361044  -13.361044
+    0.286918    0.286918
+    3.805772    3.805772
+   -6.176361   -6.176361
+    8.143425    8.143425
+   18.750318   18.750318
+    0.778730    0.778730
+   -3.368139   -3.368139
+    6.264092    6.264092
+   -8.978703   -8.978703
+    4.279088    4.279088
+    0.030553    0.030553
+   -1.557769   -1.557769
+    4.289111    4.289111
+    3.574236    3.574236
+The above two columns you get should be very similar.
+(Left-Your Numerical Gradient, Right-Analytical Gradient)
+
+If your backpropagation implementation is correct, then 
+the relative difference will be small (less than 1e-9). 
+
+Relative Difference: 1.54906e-12
+
+Program paused. Press enter to continue.
