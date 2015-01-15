@@ -12,6 +12,7 @@
 #include <bitset>
 #include <cassert>
 #include "BinaryStdIn.h"
+#include "BinaryStdOut.h"
 
 using namespace std;
 
@@ -47,13 +48,13 @@ class HUFFMAN {
 
     Htree *huffman_Tree;
     huffman_dict dict;
-    ofstream fout;
-    BinaryStdIn binaryStdIn;
+    BinaryStdOut *binaryStdOut;
+    BinaryStdIn *binaryStdIn;
 
     void buildTree(string &data, string filename);
     void buildDict(Htree *node, vector<bool> &code);
     void destroy(Htree *node);
-    string writeTrie(Htree *node);
+    void writeTrie(Htree *node);
     Htree *readTrie();
 
 public:

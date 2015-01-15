@@ -1,5 +1,5 @@
-test_inout : main.o BinaryStdOut.o BinaryStdIn.o
-		g++ -o test_inout main.o BinaryStdOut.o BinaryStdIn.o
+main : main.o BinaryStdOut.o BinaryStdIn.o
+		g++ -o main main.o BinaryStdOut.o BinaryStdIn.o
 main.o : main.cpp ../BinaryStdOut.h ../BinaryStdIn.h
 		g++ -c main.cpp
 BinaryStdOut.o : ../BinaryStdOut.h ../BinaryStdOut.cpp

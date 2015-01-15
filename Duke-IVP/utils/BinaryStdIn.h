@@ -23,6 +23,7 @@ class BinaryStdIn
     bool fillBuffer();
 
 public:
+	BinaryStdIn(){};
     BinaryStdIn(string filename);
     bool open(string filename);
     bool readBool();

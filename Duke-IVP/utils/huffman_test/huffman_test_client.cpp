@@ -11,12 +11,13 @@ using namespace std;
 
 int main()
 {
-    string data;
-    cin >> data;
+    string data = "3248&&&^aaaaaabbbbccccdddeef";
 
     string filename = "compressed";
     HUFFMAN huffman;
     huffman.encode(data, filename);
+    string rdata = huffman.decode(filename);
+    cout << "Recover data : " << rdata << endl;
 
     return 0;
 }
