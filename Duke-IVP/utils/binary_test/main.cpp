@@ -13,7 +13,8 @@ using namespace std;
 int main()
 {
     string filename = "data";
-    BinaryStdOut binaryStdOut(filename);
+    BinaryStdOut binaryStdOut;
+    binaryStdOut.open(filename);
     
     
     binaryStdOut.write('h');

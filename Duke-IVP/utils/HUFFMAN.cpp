@@ -13,7 +13,7 @@ HUFFMAN::HUFFMAN() {
 }
 
 HUFFMAN::~HUFFMAN() {
-    destroy(huffman_Tree);
+	if(!huffman_Tree) destroy(huffman_Tree);
 }
 
 void HUFFMAN::buildTree(string &data, string filename) {
@@ -80,75 +80,79 @@ void HUFFMAN::buildDict(Htree *node, vector<bool> &code) {
     }
 }
 
-string HUFFMAN::writeTrie(Htree *node) {
+
+void HUFFMAN::writeTrie(Htree *node) {
     if (isLeaf(node)) {
-        string r = "1";
-        bitset<8> chset(node->ch);
-        r = r + chset.to_string<char,std::string::traits_type,std::string::allocator_type>();
-        return r;
-                
+        binaryStdOut->write(true);
+        binaryStdOut->write(node->ch);
+        return; 
     }
-    return "0" + writeTrie(node->left) + writeTrie(node->right);
+    binaryStdOut->write(false);
+    writeTrie(node->left);
+    writeTrie(node->right);
 }
 
 void HUFFMAN::encode(string &data, string filename) {
-    cout << "-------------------- Start Encoding File : " << filename << " --------------------" << endl;
+    cout << "-------------------- Begin Encoding Data : " << filename << " --------------------" << endl;
     buildTree(data, filename);
 
-    fout.open(filename.c_str());  
-    if (!fout.is_open()) { 
-        cout << "Error opening file"; 
-        exit (-1); 
-    }
+    binaryStdOut = new BinaryStdOut(filename);
 
     //first of all, write our huffman tree
-    string trie = writeTrie(huffman_Tree);
-    #ifdef DEBUG
-        cout << "-------------------- Show Encoded Trie --------------------" << endl;
-        cout << trie << endl;
-        cout << "-------------------- End Showing Encoded Trie --------------------" << endl;
-    #endif
+    writeTrie(huffman_Tree);
+    
+    //Then write the total length of our data
+    binaryStdOut->write((int)data.length());
 
-    //Then, write our compressed data
-    char c = 0;
-    int index = 0;
+    //Finally, write our compressed data
     for(string::iterator it = data.begin(); it != data.end(); it++) {
         char ch = *it;
         vector<bool> code = dict[ch];
  
         for(vector<bool>::iterator codeit = code.begin(); codeit != code.end(); codeit++) {
             bool v = *codeit;
-            c = c | (v << index);
-            index++;
-            //write this char to file, and reset
-            if(index == 8) {
-                index = 0;
-                fout << c;
-                c = 0;
-            }
-
-            #ifdef DEBUG
-                cout << v;
-            #endif
+            binaryStdOut->write(v);
         }
     }
-    if(index != 0) fout << c;
-
-    fout.close();
-    cout << endl << "-------------------- Finish Writing File --------------------" << endl;
+    binaryStdOut->close();
+    delete binaryStdOut;
+    if(!huffman_Tree) destroy(huffman_Tree);
+    cout << endl << "-------------------- Finish Encoding Data --------------------" << endl;
 }
 
-Htree *readTrie() {
-    bool isLeaf = binaryStdIn.readBool();
+Htree * HUFFMAN::readTrie() {
+    bool isLeaf = binaryStdIn->readBool();
     if (isLeaf) {
-        return new Htree(NULL, NULL, -1, binaryStdIn.readChar());        
+        return new Htree(NULL, NULL, -1, binaryStdIn->readChar());        
     } else {
         return new Htree(readTrie(), readTrie(), -1, '\0');        
     }
 }
 
 string HUFFMAN::decode(string filename) {
-    binaryStdIn.open(filename);
+	cout << endl << "-------------------- Begin Decoding Data --------------------" << endl;
+
+    binaryStdIn = new BinaryStdIn(filename);
+    
+    huffman_Tree = readTrie();
+    int length = binaryStdIn->readInt();
+    
+    string data;
+    for (int i = 0; i < length; i++) {
+    	Htree *x = huffman_Tree;
+        while (!isLeaf(x)) {
+            bool bit = binaryStdIn->readBool();
+            if (bit) x = x->right;
+            else x = x->left;
+        }
+        data += x->ch;
+    } 
+    
+    delete binaryStdIn;
+    if(!huffman_Tree) destroy(huffman_Tree);
+    cout << endl << "-------------------- Finish Decoding Data --------------------" << endl;
+    
+    return data;
 }
 
 /*

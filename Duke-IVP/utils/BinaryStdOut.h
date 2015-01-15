@@ -26,6 +26,7 @@ class BinaryStdOut
     void writeChar(char ch);
 
 public:
+	BinaryStdOut(){};
     BinaryStdOut(string filename);
     bool open(string filename);
 

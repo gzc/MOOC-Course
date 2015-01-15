@@ -14,7 +14,7 @@ BinaryStdOut::BinaryStdOut(string filename) {
 }
 
 bool BinaryStdOut::open(string filename) {
-    fout.open(filename.c_str(), ios::binary);
+    fout.open(filename.c_str(), ios::out|ios::binary);
     if (!fout.is_open()) { 
         cout << "Error opening file" << endl; 
         exit (1);
@@ -71,4 +71,5 @@ void BinaryStdOut::flush() {
 void BinaryStdOut::close() {
     flush();
     fout.close();
+    cout << "-------------------- BinaryStdOut Writing Closing --------------------" << endl;
 }
