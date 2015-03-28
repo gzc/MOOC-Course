@@ -1,0 +1,6 @@
+recent year have seen a dramat growth of natur languag text data , includ web page , news articl , scientif literatur , email , enterpris document , and social media such as blog articl , forum post , product review , and tweet . 
+text data are uniqu in that they are usual generat direct by human rather than a comput system or sensor , and are thus especi valuabl for discov knowledg about peopl opinion and prefer , in addit to mani other kind of knowledg that we encod in text . 
+this cours will cover search engin technolog , which play an import role in ani data mine applic involv text data for two reason . 
+first , while the raw data may be larg for ani particular problem , it is often a relat small subset of the data that are relev , and a search engin is an essenti tool for quick discov a small subset of relev text data in a larg text collect . 
+second , search engin are need to help analyst interpret ani pattern discov in the data by allow them to examin the relev origin text data to make sens of ani discov pattern . 
+you will learn the basic concept , principl , and the major techniqu in text retriev , which is the under scienc of search engin . 

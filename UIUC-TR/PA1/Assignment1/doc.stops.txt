@@ -1,0 +1,6 @@
+recent years dramatic growth natural language text data web pages news articles scientific literature emails enterprise documents social media blog articles forum posts product reviews tweets 
+text data unique usually generated directly humans computer system sensors especially valuable discovering knowledge people's opinions preferences addition kinds knowledge encode text 
+course cover search engine technologies play important role data mining applications involving text data two reasons 
+raw data large particular problem relatively small subset data relevant search engine essential tool quickly discovering small subset relevant text data large text collection 
+second search engines needed help analysts interpret patterns discovered data allowing examine relevant original text data make sense discovered pattern 
+learn basic concepts principles major techniques text retrieval underlying science search engines 
