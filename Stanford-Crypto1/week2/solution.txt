@@ -1,0 +1,4 @@
+Basic CBC mode encryption needs padding.
+Our implementation uses rand. IV
+CTR mode lets you build a stream cipher from a block cipher.
+Always avoid the two time pad!
