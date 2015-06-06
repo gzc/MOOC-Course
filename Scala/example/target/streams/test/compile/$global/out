@@ -1,0 +1,34 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/src/test/scala/example/ListsSuite.scala)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(/Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/target/scala-2.10/test-classes/example/ListsSuite$$anonfun$6.class, /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/target/scala-2.10/test-classes/example/ListsSuite$$anonfun$2.class, /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/target/scala-2.10/test-classes/example/ListsSuite$$anonfun$3.class, /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/target/scala-2.10/test-classes/example/ListsSuite$$anonfun$4$$anonfun$apply$mcV$sp$1.class, /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/target/scala-2.10/test-classes/example/ListsSuite.class, /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/target/scala-2.10/test-classes/example/ListsSuite$$anonfun$1.class, /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/target/scala-2.10/test-classes/example/ListsSuite$$anonfun$4.class, /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/target/scala-2.10/test-classes/example/ListsSuite$$anonfun$5.class)[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/src/test/scala/example/ListsSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set(/Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/src/test/scala/example/ListsSuite.scala)[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/src/test/scala/example/ListsSuite.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/target/scala-2.10/test-classes...[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 645319f5, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/target/scala-2.10/test-classes[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/Users/ganzhenchao/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/target/scala-2.10/test-classes:/Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/target/scala-2.10/classes:/Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/lib/cafesat_2.10-0.01.jar:/Users/ganzhenchao/.ivy2/cache/org.scalacheck/scalacheck_2.10/jars/scalacheck_2.10-1.10.1.jar:/Users/ganzhenchao/.ivy2/cache/org.scala-tools.testing/test-interface/jars/test-interface-0.5.jar:/Users/ganzhenchao/.ivy2/cache/org.scala-lang/scala-actors/jars/scala-actors-2.10.1.jar:/Users/ganzhenchao/.ivy2/cache/com.netflix.rxjava/rxjava-scala/jars/rxjava-scala-0.15.0.jar:/Users/ganzhenchao/.ivy2/cache/com.netflix.rxjava/rxjava-core/jars/rxjava-core-0.15.0.jar:/Users/ganzhenchao/.ivy2/cache/org.json4s/json4s-native_2.10/jars/json4s-native_2.10-3.2.5.jar:/Users/ganzhenchao/.ivy2/cache/org.json4s/json4s-core_2.10/jars/json4s-core_2.10-3.2.5.jar:/Users/ganzhenchao/.ivy2/cache/org.json4s/json4s-ast_2.10/jars/json4s-ast_2.10-3.2.5.jar:/Users/ganzhenchao/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.5.6.jar:/Users/ganzhenchao/.ivy2/cache/org.mockito/mockito-all/jars/mockito-all-1.9.0.jar:/Users/ganzhenchao/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.10.0.jar:/Users/ganzhenchao/.sbt/boot/scala-2.10.4/lib/scala-compiler.jar:/Users/ganzhenchao/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.4.jar:/Users/ganzhenchao/.ivy2/cache/org.scala-lang/scala-swing/jars/scala-swing-2.10.3.jar:/Users/ganzhenchao/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/jars/dispatch-core_2.10-0.11.0.jar:/Users/ganzhenchao/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.7.16.jar:/Users/ganzhenchao/.ivy2/cache/io.netty/netty/bundles/netty-3.6.3.Final.jar:/Users/ganzhenchao/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar:/Users/ganzhenchao/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.7.5.jar:/Users/ganzhenchao/.ivy2/cache/com.squareup.retrofit/retrofit/jars/retrofit-1.0.0.jar:/Users/ganzhenchao/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.2.3.jar:/Users/ganzhenchao/.ivy2/cache/org.scala-lang.modules/scala-async_2.10/bundles/scala-async_2.10-0.9.0-M2.jar:/Users/ganzhenchao/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2.3.jar:/Users/ganzhenchao/.ivy2/cache/com.typesafe/config/bundles/config-1.0.2.jar:/Users/ganzhenchao/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/bundles/akka-testkit_2.10-2.2.3.jar:/Users/ganzhenchao/.ivy2/cache/org.scalatest/scalatest_2.10/jars/scalatest_2.10-1.9.1.jar:/Users/ganzhenchao/.ivy2/cache/junit/junit/jars/junit-4.10.jar:/Users/ganzhenchao/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 0.883407 s[0m
+[0m[[0mdebug[0m] [0mStep 2 changed sources and immdediate dependencies:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mNon-trivial strongly connected components: [0m
+[0m[[0mdebug[0m] [0m	[0m
+[0m[[0mdebug[0m] [0mStep 2 invalidated sources:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m

@@ -12,3 +12,9 @@ a.out
 
 
 gmp-5.0.5
+
+
+
+
+*.class
+Scala/workspace/

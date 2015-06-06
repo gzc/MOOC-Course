@@ -1,0 +1,89 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/}recitations...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: recitations#recitations_2.10;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.9.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies recitations#recitations_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for recitations#recitations_2.10;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/recitations/target/resolution-cache/recitations/recitations_2.10/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 490ms :: artifacts dl 3ms[0m
+[0m[[0mdebug[0m] [0m	report for recitations#recitations_2.10;0.1-SNAPSHOT compile produced in /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/recitations/target/resolution-cache/reports/recitations-recitations_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for recitations#recitations_2.10;0.1-SNAPSHOT runtime produced in /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/recitations/target/resolution-cache/reports/recitations-recitations_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for recitations#recitations_2.10;0.1-SNAPSHOT test produced in /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/recitations/target/resolution-cache/reports/recitations-recitations_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for recitations#recitations_2.10;0.1-SNAPSHOT provided produced in /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/recitations/target/resolution-cache/reports/recitations-recitations_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for recitations#recitations_2.10;0.1-SNAPSHOT optional produced in /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/recitations/target/resolution-cache/reports/recitations-recitations_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for recitations#recitations_2.10;0.1-SNAPSHOT compile-internal produced in /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/recitations/target/resolution-cache/reports/recitations-recitations_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for recitations#recitations_2.10;0.1-SNAPSHOT runtime-internal produced in /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/recitations/target/resolution-cache/reports/recitations-recitations_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for recitations#recitations_2.10;0.1-SNAPSHOT test-internal produced in /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/recitations/target/resolution-cache/reports/recitations-recitations_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for recitations#recitations_2.10;0.1-SNAPSHOT plugin produced in /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/recitations/target/resolution-cache/reports/recitations-recitations_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for recitations#recitations_2.10;0.1-SNAPSHOT sources produced in /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/recitations/target/resolution-cache/reports/recitations-recitations_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for recitations#recitations_2.10;0.1-SNAPSHOT docs produced in /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/recitations/target/resolution-cache/reports/recitations-recitations_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for recitations#recitations_2.10;0.1-SNAPSHOT pom produced in /Users/ganzhenchao/Workspaces/Coursera-Course/Scala/example/recitations/target/resolution-cache/reports/recitations-recitations_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (490ms resolve - 3ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
