@@ -1,3 +1,1 @@
-# Coursera Course
-In order to backup my answer, I put my code here.
-But it not means I want to propagate my code.
+The repo has merged into [csMOOC](https://github.com/csMOOC), Please go to [csMOOC](https://github.com/csMOOC)
